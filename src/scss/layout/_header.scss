@@ -1,17 +1,46 @@
-.menu{
-    display: flex;
-    justify-content: center;
-    position: fixed;
+.menu {
     gap: 50px;
     margin-left: 33px;
     margin-top: 19px;
-    
-}
-.header{
+    position: fixed;
+    }
+
+.header {
+display: flex;
+flex-direction: column;
+align-items: center;
 height: 100vh;
 width: 100%;
+
+
 }
-.header__imgheader{  
+.header__imgheader {
+     
     width: 414px;
     height: 388px; 
+   
+}
+
+.header__title {
+    color: #0c474b;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif ;
+    font-weight: bold;
+    margin-top: 170px;
+    width: 414px;
+    text-align: center;
+    transform: translateY(-370px);
+   
+}
+.header__button{
+    background-color: $color-letter;
+    color: #ffffff; 
+    width: 176px;
+    height: 48px;
+    margin-top: 62px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: $font-family-semi;
+    transform: translateY(-370px);
+    
 }
