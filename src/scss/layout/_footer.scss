@@ -7,6 +7,7 @@
     justify-items: center;
     align-items: center;
     padding-top: 56px;
+    padding-bottom: 56px;
 }
 .tienda{
    padding-bottom: 30px;
@@ -22,12 +23,25 @@
     font-size: 14px;
     font-family: $font-family-regular;
     line-height: 22px;
-}
-.redes{
-    background-color: $color-white ;
-   display:flex;
-}
-.linkedin::before{
-    content: none;
     
 }
+.redes{
+  color: white;
+  font-size: 20px;
+
+}
+.redes__lista{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    
+}
+
+
+
+
+
+    
+
+
+
