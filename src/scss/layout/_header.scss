@@ -19,7 +19,7 @@
 
 .menu__logo{
         position: absolute;
-        margin-left: 43px;
+        margin-left: 50px;
         margin-top: 19px;
        
     }
@@ -59,7 +59,7 @@
 }
 .header__button{
     background-color: $color-letter;
-    color: #ffffff; 
+    color: $color-white; 
     width: 176px;
     height: 48px;
     margin-top: 62px;
