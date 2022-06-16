@@ -1,0 +1,33 @@
+
+.footer{
+    background-color: $color-letter;
+    color: $color-letter-footer;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    padding-top: 56px;
+}
+.tienda{
+   padding-bottom: 30px;
+}
+
+.tienda__titulo{
+    font-size: 20px;
+    font-family: $font-family-semi;
+    margin-bottom: 10px;
+
+}
+.tienda__lista{
+    font-size: 14px;
+    font-family: $font-family-regular;
+    line-height: 22px;
+}
+.redes{
+    background-color: $color-white ;
+   display:flex;
+}
+.linkedin::before{
+    content: none;
+    
+}
