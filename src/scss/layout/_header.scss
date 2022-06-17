@@ -18,25 +18,27 @@
     }
 
 .menu__logo{
-        position: absolute;
-        margin-left: 55px;
-        
-       
+    display: block;
+     margin-left: 25vw;
     }
-    .imgHeader {
+       
+    .imgheader {
+        width: 100%;
         height: 100%;
-        height: 100%;
+        text-align: center;
+        
+        
     }
 .intro {
      display: flex;
      flex-direction: column;
      align-items: center;
-     width: 100%;
+     width: 100vw;
  
 
 }
 .header__imgheader {  
-    width: 414px;
+    width: 100%;
     height: 388px; 
 }
 .header__elemnts{
