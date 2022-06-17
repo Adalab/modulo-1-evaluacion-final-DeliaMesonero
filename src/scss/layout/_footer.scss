@@ -8,15 +8,21 @@
     align-items: center;
     padding-top: 56px;
     padding-bottom: 56px;
+    @media all and (min-width:900px){
+        flex-direction: row;
+        justify-content: space-around;
+        @media all and (min-width:900px){ padding-left: 100px;
+        }
+
+    }
 }
 .tienda{
    padding-bottom: 30px;
    display: flex;
    flex-direction: column;
    justify-content: center;
-  
+   
 }
-
 .tienda__titulo{
     font-size: 20px;
     font-family: $font-family-semi;
@@ -30,41 +36,63 @@
     font-family: $font-family-regular;
     line-height: 22px;
 }
-    .nosotros{
+.nosotros{
         text-decoration: none;
     }
-    .productos{
+.productos{
         text-decoration: none;
         color: $color-letter-footer;
 
     }
     .contacto{
-        
         width: 124px;
-        
+        @media all and (min-width:900px){
+            transform: translateY(-30px);
+        }
     }
+
+
 .redes{
   color: white;
   font-size: 20px;
   margin-top: 25px;
-
+  @media all and (min-width:900px){
+      margin-top: 5px;
+      
+  }
 }
+
 .redes__lista{
     display: flex;
-    justify-content: center;
-    gap: 15px;
     
+    gap: 15px;
+    @media all and (min-width:900px){ 
+        transform: translateX(-60px)
+        ;
+        transform: translateY(20px);
+    bottom: 10px;
+    }
 }
-
+.arrow{
+    width: 100%;
+    left: 100px;
+}
 
 .flecha{
-    display: block;
+    position: relative;
+    left: 150px;
+    bottom: 10px;
+    padding: 15px;
     color: white;
     font-size: 18px;
-    margin-top: 20px;
-    transform: translateX(70px);
-    
-}
+    @media all and (min-width:900px){ left: 20px;
+      bottom: 0;
+      transform: translateY(30px);
+
+    }
+
+    }
+
 
     
   
