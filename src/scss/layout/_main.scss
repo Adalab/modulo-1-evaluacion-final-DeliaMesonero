@@ -1,5 +1,5 @@
 //section1//
-.section1{
+.main{
     background-color: #f0ebe5;
     color: $color-letter;
     display: grid;
@@ -7,6 +7,11 @@
     width: 100%;
     padding-bottom: 30px;
     padding-top: 45px;
+    @media all and (min-width:900px){
+        grid-template-columns: 1fr 1fr 1fr;
+      padding-bottom: 73px;
+    }
+    
     
 }
 .main__title{
@@ -17,7 +22,11 @@
     margin-right: 45px;
     font-weight: bold;
     line-height: 35px;
-  
+    @media all and (min-width:900px){
+        margin-left: 196px;
+        margin-right: 196px;
+        grid-column: 1/4;
+    }
     
 
 }
@@ -32,15 +41,21 @@
     margin-right: 103px;
     margin-top: 40px;
     line-height: 25px;
-    
+    @media all and (min-width:900px){
+        margin-right: 50px;
+        margin-left: 50px;
+    }
 }
-
-
 .section__title {
     font-size: 20px;
     font-family: $font-family-semi;
     font-weight: bold;
     text-align: center;
+    @media all and (min-width:900px){
+        line-height: 30px;
+        margin-bottom: 10px;
+     
+}
 }
 .section__parrafo{
     font-size: 16px;
@@ -68,12 +83,19 @@
 }
 .envio__img{
     margin-bottom: 10px;
+    @media all and (min-width:900px){
+        
+    }
 }
 .envio__title{
    font-size: 24px;
    font-family: $font-family-semi; 
    font-weight: bold;
    margin-bottom: 10px;
+   @media all and (min-width:900px){
+       font-size: 30px;
+       margin-bottom: 25px;
+   }
 }
 .envio__parrafo{
     font-size: 14px;
@@ -104,10 +126,13 @@
     font-weight: bold;
     margin-top: 87px;
     margin-bottom: 15px;
+    @media all and (min-width:900px){
+        font-size: 30px;
+        margin-bottom: 25px;
+    }
     
-    
+}   
 
-}
 .espacios__parrafo{
     color: $color-letter;
     font-family: $font-family-regular;
@@ -117,6 +142,12 @@
     margin-left: 20px;
     margin-right: 20px;
     line-height: 23px;
+    @media all and (min-width:900px){
+       width: 400px;
+       margin-left: 35px;
+       
+    }
+    
 }
 .espacios__button{
     background-color: $color-letter;
